@@ -1,2 +1,2 @@
-# React-TypeScript-Fundamental
-In this repository we will learn together about the React, But using the TypeScript.The goal of TypeScript is to write strongly typed JavaScript. Strong typing helps to scale web applications with minimal bugs. TypeScript code is converted to JavaScript by use of a compiler like TypeScript Compiler or Babel.
+# Introduction
+TypeScript has grown to be one of the most popular and widely used programming language in web development. TypeScript is a superset of JavaScript. That simply means TypeScript is essentially JavaScript with some additional features. The goal of TypeScript is to write strongly typed JavaScript. Strong typing helps to scale web applications with minimal bugs. TypeScript code is converted to JavaScript by use of a compiler like TypeScript Compiler or Babel.
