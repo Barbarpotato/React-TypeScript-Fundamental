@@ -1,20 +1,17 @@
 import './App.css';
-// import { Greet } from './Components/Greet';
-// import { Person } from './Components/Person';
-// import { PersonList } from './Components/PersonList';
-// import { Status } from './Components/Status';
-// import { Heading } from './Components/Heading';
 import { Button } from './Components/Button';
 import { Input } from './Components/Input';
+import { Container } from './Components/Container';
 import { ChangeEvent, MouseEvent } from 'react';
 
 function App() {
-
-  // const personName = {
+  // ** Used by the Person Component.
+  // const person = {
   //   first: 'Bruce',
   //   last: 'Wayne'
   // };
 
+  // ** Used by the PersonList Component.
   // const personList = [
   //   {
   //     first: 'Clark',
@@ -26,18 +23,20 @@ function App() {
   //   }
   // ];
 
-  const handleButton = (event: MouseEvent) => {
+  const handleButton = (event: MouseEvent<HTMLButtonElement>): void => {
     console.log("This Message from parent Component");
   };
 
-  const handleChange = (event: ChangeEvent) => {
-    console.log(event);
+  const handleChange = (event: ChangeEvent<HTMLInputElement>): void => {
+    console.log(event.target.value);
   };
 
   return (
     <div className="App">
-      <Input value={'Darmawan'} handleChange={event => handleChange(event)} />
-      <Button handleClick={event => handleButton(event)} />
+      <Container styles={{ border: '2px solid blue', padding: '25px', margin: '50px 150px 50px 150px' }}>
+        <Input value={'Darmawan'} handleChange={event => handleChange(event)} />
+        <Button handleClick={event => handleButton(event)} />
+      </Container>
     </div>
   );
 };
