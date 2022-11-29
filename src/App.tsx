@@ -1,7 +1,7 @@
 import './App.css';
 import { Button } from './Components/props/eventProps/Button';
 import { Input } from './Components/props/eventProps/Input';
-import { Container } from './Components/props/basicProps/Container';
+import { Container } from './Components/props/basicProps/CssProperties';
 import { ChangeEvent, MouseEvent } from 'react';
 
 function App() {

@@ -1,4 +1,5 @@
 //? Specifying the type of some properties in object.
+//? 
 type GreetProps = {
     name: string,
     messageCount?: number
