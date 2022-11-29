@@ -1,6 +1,6 @@
-// we can still receive the random string instead 3 value that we want from the parent node.
-// to prevent this, we can use the union of a string literal, 
-// to raise an error if parent node giving a random string.
+//? we can still receive the random string instead 3 value that we want from the parent node.
+//? to prevent this, we can use the union of a string literal, 
+//? to raise an error if parent node giving a random string.
 type StatusProps = {
     status: 'success' | 'loading' | 'error'
 };

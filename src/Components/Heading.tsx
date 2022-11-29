@@ -1,8 +1,8 @@
-// React.ReactNode = All of it.
-// React.Child = one react element
-// React.Child[] = more than one react element.
-// JSX.element = one tag html
-// JSX.element[] = more than one tag html
+//? React.ReactNode = All of it.
+//? React.Child = one react element
+//? React.Child[] = more than one react element.
+//? JSX.element = one tag html
+//? JSX.element[] = more than one tag html
 
 type HeadingProps = {
     children: React.ReactNode

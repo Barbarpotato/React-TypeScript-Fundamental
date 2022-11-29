@@ -1,4 +1,4 @@
-// names value meaning that we have some array and each element of its array, is an object.
+//? names value meaning that we have some array and each element of its array, is an object.
 type PersonListProps = {
     names: {
         first: string,
