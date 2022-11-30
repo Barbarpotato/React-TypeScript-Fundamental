@@ -7,6 +7,6 @@ export const Box = () => {
     const theme = useContext(ThemeContext);
 
     return (
-        <div style={{ background: theme.dark.foreground, color: theme.light.foreground }}>Hello There</div>
+        <div style={{ backgroundColor: theme.dark.background, color: theme.light.foreground }}>Test There</div>
     );
 };
