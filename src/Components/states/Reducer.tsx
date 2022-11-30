@@ -1,4 +1,3 @@
-import { type } from "os";
 import { useReducer } from "react";
 
 type stateType = {
@@ -53,7 +52,7 @@ export const Reducer = () => {
             <h1>Count: {state.count}</h1>
             <button onClick={() => dispatch({ type: 'Increement', payload: 10 })}>Increement</button>
             <button onClick={() => dispatch({ type: 'Decreement', payload: 10 })}>Increement</button>
-            <button onClick={() => dispatch({ type: 'Reset' })}></button>
+            <button onClick={() => dispatch({ type: 'Reset' })}>Reset</button>
         </div>
     );
 };

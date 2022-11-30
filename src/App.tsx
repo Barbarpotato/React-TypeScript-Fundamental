@@ -1,11 +1,14 @@
 import './App.css';
-import { TypeAssertion } from './Components/states/TypeAssertion';
+import { ThemeContextProvider } from './Components/Context/ContextCreator';
+import { Box } from './Components/Context/UseContext';
 
 function App() {
 
   return (
     <div className="App">
-      <TypeAssertion />
+      <ThemeContextProvider>
+        <Box></Box>
+      </ThemeContextProvider>
     </div>
   );
 };
